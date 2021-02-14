@@ -8,7 +8,7 @@ app.get('/', function(req, res) {
   res.render('pages/home.ejs');
 });
 
-
+app.use(express.static("static"));
 
 
 app.get('/', (req, res) => {
@@ -19,11 +19,12 @@ app.get('/test', (req, res) => {
 res.send('Dit is een test')
 })
 
-app.get('*', (req, res) => {
-res.send('Error man')
-})
+
 
 app.listen(port, () => {
     console.log(`Server opgestart at http://localhost:${port}`)
 })
 
+// app.get('/about', function(req, res) {
+//   res.render('pages/about.ejs');
+// });
