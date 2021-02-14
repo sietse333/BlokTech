@@ -1,37 +1,17 @@
 # BlokTech
-hier mijn matching app :D
 
-tekst
+# Matching app Sietse Roos
 
+### Wat is mijn app
+Het is een app waar mensen een spel kunnen kiezen. Na het kiezen kunnen ze dan met bepaalde mensen spreken om dat spel te spelen.
 
+### Wat heb je nodig
+Ik heb NPM en NodeJS geinstalleerd
 
+### Hoe gaat dit zijn werk in?
+Al wil je NPM installeren moet je $ npm instal in je bash doen.
+Al wil je je server starten moet je $ npm run start doen.
 
-
-
-
-
-Matching-app
-this project is matching app for gamers to get matched with other gamers that match their preferences.
-
-What do you need?
-You need to have NodeJS and NPM installed.
-
-How do you get this repository on your local device?
-Inside your CLI copy this code:
-
-git clone https://github.com/fabian-vis/matching-app
-
-You can install NPM by running this code inside your CLI:
-
-npm install
-
-Scripts
-With the following script you can start the server locally:
-
-npm run start
-
-Contributers
-Fabian Vis
-
-License
-MIT
+### License
+Mit
+Sietse Roos
