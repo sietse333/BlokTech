@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 76b7da463ce7e116393218c3e61d6e317c110be0
 # BlokTech
 
 # Matching app Sietse Roos
@@ -14,4 +18,8 @@ Al wil je je server starten moet je $ npm run start doen.
 
 ### License
 Mit
+<<<<<<< HEAD
 Sietse Roos
+=======
+Sietse Roos
+>>>>>>> 76b7da463ce7e116393218c3e61d6e317c110be0
