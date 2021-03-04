@@ -30,16 +30,26 @@
                     <h3>Over mij</h3>
                     <P> Hallo ik ben yeboy. Ik zoek naar iemand om even mee te gamen want me vrienden zijn op vakantie. Ik speel alleen maar Tetris dus als je niet tetris speelt kan je me beter skippen. Spreek je dan mijn discord is: (discord link)  </P>
                 </div>
+
+
+
                 <div class="blok3">
-                    <a id="roodestip" onclick="dislike();"></a>
-                    <div id="all">
-                        <div id="bar">
-                            <div id="likes"></div>
-                            <div id="dislikes"></div>
-                        </div>
-                    </div>
-                    <a id="groenestip" onclick="like();"></a>
+                    <form action="/quotes" method="POST">
+                        <input type="radio" id="roodestip" value="2" name="radio">
+                        <button type="submit">Submit</button>
+                        <input type="radio" id="groenestip" value="1" name="radio">
+                    </form>
                 </div>
+
+
+                <div class="blok4">
+                    <div id="bar" data-likesendislikes="<%=likesendislikes%>">
+                        <div id="likes"></div>
+                        <div id="dislikes"></div>
+                    </div>
+                </div>
+
+                
         </article>
     </section>
     <script src="/javascript/script.js"></script>

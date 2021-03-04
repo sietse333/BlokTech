@@ -43,10 +43,23 @@ article{
 }
 .blok3{
     width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 1em;
+
 }
+
+.blok4{
+    width: 90%;
+    padding-bottom: 1em;
+    margin: auto;
+}
+
+form{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+    margin: auto;
+}   
+
 
 
 h2{
@@ -145,9 +158,6 @@ a{
     color: rgb(231, 231, 231);
     text-decoration: none;
 }
-
-
-
 
 
 nav a{
