@@ -12,9 +12,11 @@ Om deze applicatie te runnen heb je NPM nodig en nodejs
 ### Hoe gaat dit zijn werk in?
 Al wil je de repo clonen gebruik je deze link: https://github.com/sietse333/BlokTech.git
 
-Al wil je NPM installeren moet je $ npm instal in je bash doen.
+Al wil je NPM installeren moet je```$ npm instal``` in je bash doen.
 
-Al wil je je server starten moet je $ npm run start doen.
+Al wil je je server starten moet je ```$ npm run``` start doen.
+
+Al wil je je server starten met nodemon moet je ```$ npm run watch``` doen.
 
 ### Hoe ziet de database eruit?
 
