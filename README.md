@@ -21,6 +21,15 @@ Al wil je je server starten moet je $ npm run start doen.
 
 ![database](https://github.com/sietse333/BlokTech/blob/main/Images/databasestructuur.png)
 
+
+### Maak een env bestand aan
+```
+MONGO_URI= Link naar database
+MONGO_DB= Je database naam
+MONGO_USER= Je gebruikersnaam
+MONGO_PASS= Je wachtwoord
+```
+
 ### License
 Mit
 
