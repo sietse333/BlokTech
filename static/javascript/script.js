@@ -22,8 +22,8 @@ function calculateBar() {
     const total = likes + dislikes;
     const percentageLikes = (likes / total) * 100;
     const percentageDisLikes = (dislikes / total) * 100;
-    document.getElementById('likes').style.width = percentageLikes.toString() + "%";
-    document.getElementById('dislikes').style.width = percentageDisLikes.toString() + "%";
+    document.getElementById('likes').style.width = percentageLikes.toString() + '%';
+    document.getElementById('dislikes').style.width = percentageDisLikes.toString() + '%';
 }
 
 // Het laad alleen al ben ik op de mensen pagina
