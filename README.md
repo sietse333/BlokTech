@@ -35,6 +35,13 @@ MONGO_PASS= Je wachtwoord
 ### Hier de heroku link
 https://sietsebloktech.herokuapp.com/
 
+### Preview van de website
+
+![image](https://user-images.githubusercontent.com/43068118/110779643-11171d00-8264-11eb-83e8-1d46cd8502ec.png)
+
+
+
+
 ### License
 Mit
 
